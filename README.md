@@ -94,6 +94,25 @@ Handles model initialization, augmentation, and checkpoint saving.
 📄 `training/0_PrepareDatasetYOLOv8.ipynb`
 Cleans and reformats the RDD dataset.
 
+## 📊 Training Performance Visualization
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="resource/Epoch.png" alt="Training & Validation Loss and Accuracy" width="420px"/><br>
+      <b>Figure 1.</b> Training and Validation Loss & Accuracy Curves
+    </td>
+    <td align="center">
+      <img src="resource/lose.png" alt="YOLOv8 Loss and mIoU Progression" width="420px"/><br>
+      <b>Figure 2.</b> YOLOv8 Loss Curve and Validation mIoU Progression
+    </td>
+  </tr>
+</table>
+
+**Description:**  
+- **Left:** Training and validation loss and accuracy curves demonstrating model convergence.  
+- **Right:** YOLOv8 loss curve and validation *mIoU* progression across epochs, reflecting improved generalization during training.
+
 
 ## 📈 Evaluation Results
 
